@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+
+</head>
+
+<body>
+ 
+  
+
+<!-- mobile screen view -->
+  <div class="smallscreennav pl-2">
+    <div class="bars" onclick="openNav()">
+      <i class="fa fa-bars " style="font-size: 20px;"></i>
+    </div>
+    <div class="refreshicon"><img width="20px" height="20px" src="refresh icon.png" alt=""></div>
+
+    <div class="text-center">
+      <span style="font-weight: 600;"> Primary </span> <span style="font-size: 15px;">153</span>
+    </div>
+
+    <div class="edit"><i class="fa fa-pencil"></i></div>
+  </div>
+
+  <div class="smallsearch">
+    <i class="fa fa-search ml-3 mr-4" style="font-size: 20px;"></i>
+    <input type="search" placeholder="search mail">
+  </div>
+
+<!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <div class="navcontent pb-2">
+
+      <div class="email ml-5">
+        <div class="mail">
+          <span>usmannaeem@gmail.com</span>
+        </div>
+      </div>
+      <div class="settings">
+        <i class="fa fa-gear"></i>
+      </div>
+    </div>
+    <div class="inbox">
+      <div class="one">
+        <span class=" ml-4">Inbox</span>
+      </div>
+      <div class="inbox1" href="javascript:void(0)"  onclick="closeNav()">
+        <span class="material-icons"> inbox </span>
+         <span class="ml-2">Primary</span>
+      </div>
+      <div class="inbox2">
+        <span class="material-icons"> people </span>
+         <span class="ml-2" >Social</span>
+      </div> 
+        <div class="inbox3">
+          <span class="material-icons"> local_offer </span>
+         <span class="ml-2">Promotion</span>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+  
+  <div class="smallemail">
+ 
+    <div class="smallheader">
+      <div class="arrow" style="width: 7%;">
+        <span class="material-icons "> chevron_left </span>
+      </div>
+      <div class="head pl-2">
+        <h1>New categorized mail</h1>
+        <span>32 Social,48 Promotions</span>
+        <span>from Twitter,Instagram and Google</span>
+      </div>
+      <div class="time">
+        <span>10:25pm</span>
+      </div>
+      
+    </div>
+
+
+    <div class="emailRow  ">
+      <div class="emailRow__options">
+        <input type="checkbox"  />  
+      </div>
+
+
+      <div class="emailRow__message pl-2">
+
+        <span class="emailRow__title" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+        <span style="font-weight: 600;">
+          4 new jobs for 'Frontend developer'-
+        </span>
+        <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+      </div>
+      <div class="emailtime">
+        <div class="time">
+          <span class="emailRow__time " style="color: rgb(26, 100, 198);">10pm</span>
+        </div>
+        <div class="star">
+        <span class="material-icons "> star_border </span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="emailRow  ">
+      <div class="emailRow__options">
+        <input type="checkbox"  />  
+      </div>
+
+
+      <div class="emailRow__message pl-2">
+
+        <span class="emailRow__title" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+        <span style="font-weight: 600;">
+          4 new jobs for 'Frontend developer'-
+        </span>
+        <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+      </div>
+      <div class="emailtime">
+        <div class="time">
+          <span class="emailRow__time " style="color: rgb(26, 100, 198);">10pm</span>
+        </div>
+        <div class="star">
+        <span class="material-icons "> star_border </span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="emailRow  ">
+      <div class="emailRow__options">
+        <input type="checkbox"  />  
+      </div>
+
+
+      <div class="emailRow__message pl-2">
+
+        <span class="emailRow__title" >Linkedin Jobs Alrets</span>
+        <span >
+          4 new jobs for 'Frontend developer'-
+        </span>
+        <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+      </div>
+      <div class="emailtime">
+        <div class="time">
+          <span class="emailRow__time ">10pm</span>
+        </div>
+        <div class="star">
+        <span class="material-icons "> star_border </span>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="emailRow  ">
+      <div class="emailRow__options">
+        <input type="checkbox"  />  
+      </div>
+
+
+      <div class="emailRow__message pl-2">
+
+        <span class="emailRow__title" >Linkedin Jobs Alrets</span>
+        <span >
+          4 new jobs for 'Frontend developer'-
+        </span>
+        <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+      </div>
+      <div class="emailtime">
+        <div class="time">
+          <span class="emailRow__time " >10pm</span>
+        </div>
+        <div class="star">
+        <span class="material-icons "> star_border </span>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div class="emailRow  ">
+      <div class="emailRow__options">
+        <input type="checkbox"  />  
+      </div>
+
+
+      <div class="emailRow__message pl-2">
+
+        <span class="emailRow__title" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+        <span style="font-weight: 600;">
+          4 new jobs for 'Frontend developer'-
+        </span>
+        <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+      </div>
+      <div class="emailtime">
+        <div class="time">
+          <span class="emailRow__time " style="color: rgb(26, 100, 198);">10pm</span>
+        </div>
+        <div class="star">
+        <span class="material-icons "> star_border </span>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div class="emailRow  ">
+      <div class="emailRow__options">
+        <input type="checkbox"  />  
+      </div>
+
+
+      <div class="emailRow__message pl-2">
+
+        <span class="emailRow__title" >Linkedin Jobs Alrets</span>
+        <span >
+          4 new jobs for 'Frontend developer'-
+        </span>
+        <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+      </div>
+      <div class="emailtime">
+        <div class="time">
+          <span class="emailRow__time " >10pm</span>
+        </div>
+        <div class="star">
+        <span class="material-icons "> star_border </span>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="emailRow  ">
+      <div class="emailRow__options">
+        <input type="checkbox" />  
+      </div>
+
+
+      <div class="emailRow__message pl-2">
+
+        <span class="emailRow__title" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+        <span style="font-weight: 600;">
+          4 new jobs for 'Frontend developer'-
+        </span>
+        <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+      </div>
+      <div class="emailtime">
+        <div class="time">
+          <span class="emailRow__time " style="color: rgb(26, 100, 198);">10pm</span>
+        </div>
+        <div class="star">
+        <span class="material-icons "> star_border </span>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="emailRow  ">
+      <div class="emailRow__options">
+        <input type="checkbox"  />  
+      </div>
+
+
+      <div class="emailRow__message pl-2">
+
+        <span class="emailRow__title" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+        <span style="font-weight: 600;">
+          4 new jobs for 'Frontend developer'-
+        </span>
+        <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+      </div>
+      <div class="emailtime">
+        <div class="time">
+          <span class="emailRow__time " style="color: rgb(26, 100, 198);">10pm</span>
+        </div>
+        <div class="star">
+        <span class="material-icons "> star_border </span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="emailRow  ">
+      <div class="emailRow__options">
+        <input type="checkbox"  />  
+      </div>
+
+
+      <div class="emailRow__message pl-2">
+
+        <span class="emailRow__title" >Linkedin Jobs Alrets</span>
+        <span >
+          4 new jobs for 'Frontend developer'-
+        </span>
+        <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+      </div>
+      <div class="emailtime">
+        <div class="time">
+          <span class="emailRow__time " >10pm</span>
+        </div>
+        <div class="star">
+        <span class="material-icons "> star_border </span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="emailRow  ">
+      <div class="emailRow__options">
+        <input type="checkbox"  />  
+      </div>
+
+
+      <div class="emailRow__message pl-2">
+
+        <span class="emailRow__title" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+        <span style="font-weight: 600;">
+          4 new jobs for 'Frontend developer'-
+        </span>
+        <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+      </div>
+      <div class="emailtime">
+        <div class="time">
+          <span class="emailRow__time " style="color: rgb(26, 100, 198);">10pm</span>
+        </div>
+        <div class="star">
+        <span class="material-icons "> star_border </span>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="emailRow  ">
+      <div class="emailRow__options">
+        <input type="checkbox"  />  
+      </div>
+
+
+      <div class="emailRow__message pl-2">
+
+        <span class="emailRow__title" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+        <span style="font-weight: 600;">
+          4 new jobs for 'Frontend developer'-
+        </span>
+        <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+      </div>
+      <div class="emailtime">
+        <div class="time">
+          <span class="emailRow__time " style="color: rgb(26, 100, 198);">10pm</span>
+        </div>
+        <div class="star">
+        <span class="material-icons "> star_border </span>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="emailRow  ">
+      <div class="emailRow__options">
+        <input type="checkbox"  />  
+      </div>
+
+
+      <div class="emailRow__message pl-2">
+
+        <span class="emailRow__title" >Linkedin Jobs Alrets</span>
+        <span>
+          4 new jobs for 'Frontend developer'-
+        </span>
+        <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+      </div>
+      <div class="emailtime">
+        <div class="time">
+          <span class="emailRow__time " >10pm</span>
+        </div>
+        <div class="star">
+        <span class="material-icons "> star_border </span>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="emailRow  ">
+      <div class="emailRow__options">
+        <input type="checkbox" />  
+      </div>
+
+
+      <div class="emailRow__message pl-2">
+
+        <span class="emailRow__title" >Linkedin Jobs Alrets</span>
+        <span >
+          4 new jobs for 'Frontend developer'-
+        </span>
+        <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+      </div>
+      <div class="emailtime">
+        <div class="time">
+          <span class="emailRow__time " >10pm</span>
+        </div>
+        <div class="star">
+        <span class="material-icons "> star_border </span>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="emailRow  ">
+      <div class="emailRow__options">
+        <input type="checkbox" />  
+      </div>
+
+
+      <div class="emailRow__message pl-2">
+
+        <span class="emailRow__title" >Linkedin Jobs Alrets</span>
+        <span >
+          4 new jobs for 'Frontend developer'-
+        </span>
+        <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+      </div>
+      <div class="emailtime">
+        <div class="time">
+          <span class="emailRow__time " >10pm</span>
+        </div>
+        <div class="star">
+        <span class="material-icons "> star_border </span>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+
+
+<!-- desktop screen view  -->
+
+
+  <div class="nav1 pb-2">
+    <i class="fa fa-bars ml-4 mt-4" style="font-size: 20px;"></i>
+    <img class="mt-3 ml-4 mr-4 img" src="logo.PNG" alt="">
+
+    <div class="saerch1 ml-5 mt-2">
+      <i class="fa fa-search ml-3 mr-4" style="font-size: 20px;"></i>
+      <input type="search" placeholder="search mail">
+      <img class="mr-3" width="18px" height="18px" src="filter icon.png" alt="">
+    </div>
+
+
+    <div class="icons1 mt-3 ml-auto dropleft">
+      <i class="fa fa-question-circle-o " style="font-size: 24px;" href="#" role="button" id="dropdownMenuLink"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+      <div class="dropdown-menu mt-3" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="#">Help</a>
+        <a class="dropdown-item" href="#">Training</a>
+        <a class="dropdown-item" href="#">Updates</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Send feedback to Google</a>
+      </div>
+      <i class="fa fa-gear ml-3" style="font-size: 24px;"></i>
+      <img class="mb-2 ml-3" width="24px" height="24px" src="menu icon.png" alt="">
+      <img class="mb-2 ml-3 mr-4" width="32px" height="32px" src="avataricon.png" alt="">
+    </div>
+  </div>
+
+  <div class="container1">
+    <div class="sidediv" >
+
+      <div class="btn1 ml-2 mt-3">
+        <img class="ml-2 mt-2 img" width="32px" height="32px" src="plus.PNG" alt="">
+        <button>Compose</button>
+      </div>
+      <div class="meun">
+        <div class="inbox mt-3 pt-1" style="background-color: #FCE8E6; color: #DC3F34;font-weight: 700;">
+          <span class="material-icons ml-4 mb-2"> inbox </span>
+          <span class="ml-3">Inbox</span><span class="ml-auto mr-3">1,153</span>
+        </div>
+
+        <div class="stra pt-2">
+          <span class="material-icons ml-4 mb-2"> star </span>
+          <span class="ml-3">Starred</span>
+        </div>
+
+        <div class="snoo pt-2">
+          <span class="material-icons ml-4 mb-2"> access_time </span>
+          <span class="ml-3">Snoozed</span>
+        </div>
+
+        <div class="imp pt-2">
+          <span class="material-icons ml-4 mb-2"> label_important </span>
+          <span class="ml-3">Important</span>
+        </div>
+
+        <div class="sen pt-2">
+          <span class="material-icons ml-4 mb-2"> near_me </span>
+          <span class="ml-3">Sent</span>
+        </div>
+
+        <div class="dra pt-2">
+          <span class="material-icons ml-4 mb-2"> note </span>
+          <span class="ml-3">Drafts</span>
+        </div>
+
+        <div class="mor pt-2">
+          <span class="material-icons  ml-4 mb-2"> expand_more </span>
+          <span class="ml-3">More</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="haeder" style="overflow: scroll; ">
+
+      <div class="settings pb-3 ">
+        <div class="settingsLeft mt-2 ml-4">
+          <input type="checkbox" />
+          <i class="fa fa-sort-desc ml-2 mb-1"></i>
+          <span class="material-icons ml-4"> redo </span>
+          <span class="material-icons ml-4"> more_vert </span>
+        </div>
+        <div class="settingsRight mt-2">
+          <span class="material-icons "> chevron_left </span>
+          <span class="material-icons ml-3"> chevron_right </span>
+          <span class="material-icons ml-3"> keyboard </span>
+          <i class="fa fa-sort-desc ml-2 mb-1"></i>
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="emailList__sections   ml-2 ">
+        <div class="pri " style="color: rgb(218, 6, 6); border-bottom:2px solid rgb(218, 6, 6) ;">
+          <span class="material-icons" style="color: rgb(218, 6, 6);"> inbox </span>
+          <span class="ml-3">Primary </span>
+        </div>
+
+        <div class="soc ml-1">
+          <span class="material-icons"> people </span>
+          <span class="ml-3">Social </span>
+        </div>
+
+        <div class="pro">
+          <span class="material-icons"> local_offer </span>
+          <span class="ml-3">Promotions </span>
+        </div>
+      </div>
+
+
+      <div class="emailList__list">
+
+
+        <div class="emailRow  ">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+
+        <div class="emailRow pb-3" style="background-color: #F1F3F4;">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span>
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description"> View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+        </div>
+
+        <div class="emailRow pb-3" style="background-color: #F1F3F4;">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2">Google</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span>
+              Security alert for example@gmail.com-
+            </span>
+            <span class="emailRow__description">This is a copy of security alert sent</span>
+          </div>
+
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+        </div>
+
+        <div class="emailRow pb-3" style="background-color: #F1F3F4;">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2">Youtube</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span>
+              You hav a new subscriber-
+            </span>
+            <span class="emailRow__description">on your channel </span>
+          </div>
+
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+        </div>
+
+        <div class="emailRow pb-3" style="background-color: #F1F3F4;">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span>
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description"> View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+        </div>
+
+        <div class="emailRow pb-3" style="background-color: #F1F3F4;">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span>
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description"> View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+        </div>
+
+
+        <div class="emailRow ">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+        <div class="emailRow pb-3 mt-1">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+        <div class="emailRow pb-3 mt-1">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+        <div class="emailRow pb-3 mt-1">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+        <div class="emailRow pb-3" style="background-color: #F1F3F4;">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span>
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description"> View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+        </div>
+        <div class="emailRow pb-3 mt-1">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+
+        <div class="emailRow pb-3 mt-1">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+        <div class="emailRow pb-3 mt-1">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+        <div class="emailRow pb-3" style="background-color: #F1F3F4;">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span>
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description"> View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+        </div>
+        <div class="emailRow pb-3 mt-1">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+        <div class="emailRow pb-3 mt-1">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+        <div class="emailRow pb-3 mt-1">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+        <div class="emailRow pb-3 mt-1">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+        <div class="emailRow pb-3" style="background-color: #F1F3F4;">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span>
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description"> View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+        </div>
+
+
+        <div class="emailRow pb-3 mt-1">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+
+
+        <div class="emailRow pb-3" style="background-color: #F1F3F4;">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span>
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description"> View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+        </div>
+
+
+
+        <div class="emailRow pb-3" style="background-color: #F1F3F4;">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span>
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description"> View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+        </div>
+
+
+        <div class="emailRow pb-3 mt-1">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+
+
+
+
+        <div class="emailRow pb-3" style="background-color: #F1F3F4;">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span>
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description"> View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="emailRow pb-3" style="background-color: #F1F3F4;">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span>
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description"> View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="emailRow pb-3 mt-1">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+
+
+
+
+        <div class="emailRow pb-3 mt-1">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+
+
+        <div class="emailRow pb-3" style="background-color: #F1F3F4;">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span>
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description"> View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+        </div>
+
+
+
+
+        <div class="emailRow pb-3" style="background-color: #F1F3F4;">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span>
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description"> View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+        </div>
+
+
+
+        <div class="emailRow pb-3" style="background-color: #F1F3F4;">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span>
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description"> View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+        </div>
+
+
+
+        <div class="emailRow pb-3 mt-1">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+
+
+
+        <div class="emailRow pb-3 mt-1">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+
+
+        <div class="emailRow pb-3 mt-1">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ">10pm</span>
+          </div>
+
+        </div>
+
+
+        <div class="emailRow pb-3 mt-1">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+
+
+        <div class="emailRow pb-3 mt-1">
+          <div class="emailRow__options">
+            <input type="checkbox" class="ml-2" />
+            <span class="material-icons ml-2"> star_border </span>
+
+            <span class="emailRow__title ml-2" style="font-weight: 650;">Linkedin Jobs Alrets</span>
+          </div>
+
+
+          <div class="emailRow__message">
+            <span style="font-weight: 650;">
+              4 new jobs for 'Frontend developer'-
+            </span>
+            <span class="emailRow__description">View jobs in karachi,Sindh, Pakistan</span>
+          </div>
+          <div style="width: 20%; display: flex; justify-content: end;">
+
+            <span class="emailRow__time  ml-5">10pm</span>
+          </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+    </div>
+
+
+    <div class="sideicons">
+      <div><img src="calender.png" alt=""></div>
+      <div><img src="keep.png" alt=""></div>
+      <div><img src="tsks.png" alt=""></div>
+      <div><img src="contacts.png" alt=""></div>
+      <div><img src="newtab.png" alt=""></div>
+    </div>
+
+  </div>
+
+<script>
+
+  
+  /* Open when someone clicks on the span element */
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+  
+  /* Close when someone clicks on the "x" symbol inside the overlay */
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+  </script>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
